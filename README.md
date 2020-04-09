@@ -47,6 +47,3 @@ Yes, for deaf people some captions do not make any sense. Captions such as `scar
 It can, but you should be careful. Emotions are subjective and so interpreted differently per individual. A winking emoji can mean lots of things. Also color coded text can be easily misinterpreted. Colors as red can mean loud or angry for example. Colors like green and blue are even harder to define.
 
 </details>
-
-
-### Takeaways
