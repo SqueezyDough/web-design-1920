@@ -4,7 +4,7 @@ For this course i will design a prototype that will improve closed captions for 
 
 ## Maries Profile
 ### In short
-Marie is a web designer who works at the NCRV. Marie was born deaf and so her mother tongue is Dutch sign language, but she also understands Dutch and English. What was important to understand is that `sound` is an abstract concept for her. She nows what it is, but because she has never heard anything, it's hard to get a precise picture of sound. In video anything that refers to sound doesn't mean much for her. For example, when a movie says `Scary background music` in its closed caption, she has no good understanding of what a scary background music is.
+Marie is a interaction designer who works at the NCRV. Marie was born deaf and so her mother tongue is Dutch sign language, but she also understands Dutch and English. What was important to understand is that `sound` is an abstract concept for her. She nows what it is, but because she has never heard anything, it's hard to get a precise picture of sound. In video anything that refers to sound doesn't mean much for her. For example, when a movie says `Scary background music` in its closed caption, she has no good understanding of what a scary background music is.
 
 ### Language
 * She was born deaf, so she can't speak any language.
