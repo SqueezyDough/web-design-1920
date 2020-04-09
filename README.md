@@ -36,6 +36,8 @@ Marie is an interaction designer who works at the NCRV. Marie was born deaf and 
 <details>
 <summary>Meeting 1</summary>
   
+Talking to Marie felt like a normal conversation, because the interpreters did a great job translating. I did get a bit distracted because of all the hand gestures though. 
+  
 ### Testing hypotheses
 #### Different voice pitches can't translate to sign language
 It can, interpreters use mimics and face expressions to add emotions / pitch differences.
