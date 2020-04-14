@@ -1,62 +1,51 @@
-# Real-Time Web @cmda-minor-web · 2019-2020
+# Web design
+## Introduction
+For this course i will design a prototype that will improve closed captions for Marie van Driessche, a person who was born deaf. I will meet 3 times with her to test and discuss solutions.
 
-During this course you will learn how to build a **meaningful** real-time application. You will learn techniques to setup an open connection between the client and the server. This will enable you to send data in real-time both ways, at the same time.
+## Maries Profile
+### In short
+Marie is an interaction designer who works at the NCRV. Marie was born deaf and so her mother tongue is Dutch sign language, but she also understands Dutch and English. What was important to understand is that `sound` is an abstract concept for her. She nows what it is, but because she has never heard anything, it's hard to get a precise picture of sound. In video anything that refers to sound doesn't mean much for her. For example, when a movie says `Scary background music` in its closed caption, she has no good understanding of what a scary background music is.
 
-## Goals
-- _Deal with real-time complexity_
-- _Handle real-time client-server interaction_
-- _Handle real-time data management_
-- _Handle multi-user support_
+### Language
+* She was born deaf, so she can't speak any language.
+* Dutch sign language is her mother tongue.
+* She can read both Dutch and English
+* She reads a lot of books in these languages
 
-[Rubric][rubric]
+### Communication
+* Sign language is a full language that can be used the same way as regular speech.
+* She sees an interpreter as someone who lends her a voice to communicate with people who do not speak sign language.
+* She uses an app that calls an interpreter so she can commicate with her doctor or other institutions.
+* When I am showing something to her she needs to both look at the prototype as to the interpreter when I am speaking. This is very hard to do. It's better to just don't say anything and just ask how she feels about it.
 
-## Curriculum
+### Podcasts
+* She doesn't watch podcasts because they don't provide a transcript.
+* Even when they do provide a transcript she reads it rarely, and only when the subject interests her.
+* She is very unkown about what people say in a podcast and what makes it nice to listen to.
 
-### Week 1 - Hello Server
-
-Goal: Build and deploy a unique barebone real-time app  
-
-[Exercises](https://github.com/cmda-minor-web/real-time-web-1920/blob/master/course/week-1.md)    
-[Slides](https://docs.google.com/presentation/d/1Q_2EpEnW53G-DiRYtfp1VRYHdLJYJ7bjoLxAWhGbW-0/edit?usp=sharing)  
-
-
-### Week 2 - Sharing is caring  
-
-Goal: Store, manipulate and share data between server-client   
-
-[Exercises](https://github.com/cmda-minor-web/real-time-web-1920/blob/master/course/week-2.md)    
-[Slides](https://docs.google.com/presentation/d/1p_P-rciWJQ2BMgveOYNTcwEJHh1yxB1-HqKZhiD8kkk/edit?usp=sharing)
+### Watching movies and series
+* She owns a TV now for just a year.
+* She prefers movies and series that have a great dialogue.
+* She says most deaf people prefer action movies because it is more visually challenging, but she doesn't really likes them as much.
+* Closed captions sometimes describe audio that has no meaning to her.
+* It is sometimes hard to know who is speaking, espacially when it happens off screen.
+* She prefers english subtitels because they aren't translated already by someone else and they provide closed captions.
 
 
-### Week 3 - Let’s take this show on the road 
+## Meetings
+<details>
+<summary>Meeting 1</summary>
 
-Goal: Handle data sharing and multi-user support 
+Talking to Marie felt like a normal conversation, because the interpreters did a great job translating. I did get a bit distracted because of all the hand gestures though.
 
-[Exercises](https://github.com/cmda-minor-web/real-time-web-1920/blob/master/course/week-3.md)  
-[Slides](https://drive.google.com/open?id=19GE6r1jha3gX-uhQI0NIv09klTT45BihuELqZSEa2_8)
+### Testing hypotheses
+#### Different voice pitches can't translate to sign language
+It can, interpreters use mimics and face expressions to add emotions / pitch differences.
 
-> If you're seeing this message on a forked repo, it means one of our students hasn't changed the description yet 😈
+#### Closed captions don't always explain what is going on in the background.
+Yes, for deaf people some captions do not make any sense. Captions such as `scary background music` can't be interpreted by someone who has never heard music to begin with. Which doesn't mean they can't experience sound in some way. Displaying rithm can provide extra context to a scenario. When the music is loud, like in a cinema, see can feel vibrations coming from the speakers, which also give the scenario extra depth. For example, it can indicate loud music playing in a bar, which tells her people can't hear eachother very well.
 
-<!-- Add a link to your live demo in Github Pages 🌐-->
+#### Text or emoji's can help to visualise emotion
+It can, but you should be careful. Emotions are subjective and so interpreted differently per individual. A winking emoji can mean lots of things. Also color coded text can be easily misinterpreted. Colors as red can mean loud or angry for example. Colors like green and blue are even harder to define.
 
-<!-- ☝️ replace this description with a description of your own work -->
-
-<!-- replace the code in the /docs folder with your own, so you can showcase your work with GitHub Pages 🌍 -->
-
-<!-- Add a nice image here at the end of the week, showing off your shiny frontend 📸 -->
-
-<!-- Maybe a table of contents here? 📚 -->
-
-<!-- How about a section that describes how to install this project? 🤓 -->
-
-<!-- ...but how does one use this project? What are its features 🤔 -->
-
-<!-- What external data source is featured in your project and what are its properties 🌠 -->
-
-<!-- This would be a good place for your data life cycle ♻️-->
-
-<!-- Maybe a checklist of done stuff and stuff still on your wishlist? ✅ -->
-
-<!-- How about a license here? 📜  -->
-
-[rubric]: https://docs.google.com/spreadsheets/d/e/2PACX-1vSd1I4ma8R5mtVMyrbp6PA2qEInWiOialK9Fr2orD3afUBqOyvTg_JaQZ6-P4YGURI-eA7PoHT8TRge/pubhtml
+</details>
