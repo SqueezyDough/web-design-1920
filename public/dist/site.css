@@ -15,116 +15,72 @@
   src: url("../fonts/Avenir/AvenirLTStd-Heavy.ttf"); }
 
 body {
-  max-width: 40rem;
-  margin: 0 auto;
-  padding: .5rem .5rem 6rem .5rem;
-  background-color: #FF0449;
-  font-family: "Avenir-Roman", sans-serif;
-  color: #040D2C; }
+  margin: 0;
+  padding: 0;
+  background-color: #0c0c0c; }
 
 * {
   box-sizing: border-box; }
 
-em {
-  background-color: #EFD609;
-  font-family: "Inconsolata-bold", monospace;
-  text-transform: uppercase;
-  font-style: normal; }
-  em::selection {
-    background-color: white; }
+.player {
+  position: relative;
+  height: 100vh;
+  overflow: hidden; }
 
-.btn, .-primary, .-secondary {
-  -webkit-appearance: none;
-  appearance: none;
-  padding: .5rem 1.5rem;
-  font-family: "Inconsolata-bold", monospace;
-  font-size: 1rem;
-  color: #040D2C;
-  border-radius: 5px 0 0 0;
-  text-align: center;
-  text-decoration: none;
-  transition: .2s;
-  transition-property: flex-grow, background-color, color;
-  cursor: pointer; }
-  .btn:hover, .-primary:hover, .-secondary:hover, .btn:focus, .-primary:focus, .-secondary:focus {
-    background-color: #EFD609;
-    border: 1px solid #040D2C;
-    color: #040D2C; }
+.player__outer {
+  position: relative;
+  padding-top: 56.25%; }
 
-.-primary {
-  border-top: 1px solid #040D2C;
-  border-right: 1px solid #FF0449;
-  border-bottom: 1px solid #FF0449;
-  border-left: 1px solid #040D2C;
-  box-shadow: #040D2C 4px 4px 0 0;
-  background-color: #040D2C;
-  color: #FF0449;
-  text-transform: uppercase; }
-
-.-secondary {
-  border: 1px solid #040D2C;
-  box-shadow: #040D2C 4px 4px 0 0;
-  background-color: transparent;
-  text-transform: uppercase; }
-
-.send-container {
-  display: flex;
-  justify-content: space-between;
-  position: fixed;
-  bottom: 0;
+.player__inner {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  max-width: 40rem;
-  padding: 1rem 1rem 1rem 0; }
+  height: 100%;
+  max-height: calc(100vh - 2rem);
+  padding: .75rem;
+  border: none;
+  z-index: 1000; }
 
-.message-input {
-  -webkit-appearance: none;
-  appearance: none;
-  flex-grow: 1;
-  padding: .5rem 1.5rem;
-  margin-right: 1rem;
-  font-family: "Inconsolata-bold", monospace;
-  font-size: 1rem;
-  color: #040D2C;
-  border: 1px solid transparent;
-  border-radius: 30px;
-  box-shadow: #040D2C 4px 4px 0 0;
-  text-decoration: none;
-  transition: .2s;
-  transition-property: transform, flex-grow, background-color, color;
-  cursor: pointer; }
-  .message-input:hover, .message-input:focus {
-    flex-grow: 1;
-    background-color: #EFD609;
-    border: 1px solid #040D2C;
-    color: #040D2C; }
-  .message-input::placeholder {
-    color: #040D2C; }
+.offscreen-sound-indicator {
+  position: absolute;
+  width: 10%;
+  height: 10%;
+  box-shadow: 2px 2px 50px 50px #8EF0BC;
+  background-color: #8EF0BC;
+  opacity: 0;
+  z-index: 999;
+  animation-name: sound-indicator;
+  animation-timing-function: ease-in-out;
+  animation-direction: forwards; }
+  .offscreen-sound-indicator.active.-sound-1 {
+    bottom: 10%;
+    right: 0;
+    animation-duration: 7s;
+    animation-delay: 5s; }
+  .offscreen-sound-indicator.active.-sound-2 {
+    top: 0;
+    right: 0;
+    animation-duration: 5s;
+    animation-delay: 20s; }
+  .offscreen-sound-indicator.active.-sound-3 {
+    left: 0;
+    top: 40%;
+    animation-duration: 6s;
+    animation-delay: 40s; }
+  .offscreen-sound-indicator.active.-sound-4 {
+    bottom: 10%;
+    left: 0;
+    animation-duration: 4s;
+    animation-delay: 60s; }
+  .offscreen-sound-indicator.active.-sound-5 {
+    bottom: 10%;
+    right: 0;
+    animation-duration: 4s;
+    animation-delay: 70s; }
 
-.message-container {
-  display: flex;
-  flex-direction: column; }
-
-.message {
-  word-wrap: break-word;
-  max-width: 45%;
-  padding: 1rem;
-  margin: .5rem 0;
-  border: 1px solid #FF0449; }
-  .message.-server {
-    text-transform: uppercase;
-    font-family: "Inconsolata-bold", monospace;
-    padding: 0;
-    background-color: #EFD609; }
-  .message.-self {
-    align-self: flex-end;
-    background-color: #EFD609;
-    box-shadow: #040D2C 4px 4px 0 0; }
-  .message.-member {
-    align-self: flex-start;
-    background-color: #C60036;
-    box-shadow: #040D2C 4px 4px 0 0; }
-
-.video-message {
-  padding: 0;
-  width: 100%;
-  height: auto; }
+@keyframes sound-indicator {
+  0%, 100% {
+    opacity: 0; }
+  50% {
+    opacity: 1; } }
