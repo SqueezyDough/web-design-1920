@@ -1,0 +1,23 @@
+{
+    "dsi": [{
+        "startTime": 3,
+        "endTime": 6,
+        "location": {
+            "x": 1,
+            "y": 0
+        },
+        "spread": 5,
+        "intensity": 3,
+        "color": "red"
+    }, {
+        "startTime": 6,
+        "endTime": 10,
+        "location": {
+            "x": 5,
+            "y": 5
+        },
+        "spread": 5,
+        "intensity": 3,
+        "color": "blue"
+    }]
+}
