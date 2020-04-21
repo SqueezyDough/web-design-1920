@@ -1,8 +1,6 @@
 const video = document.getElementById('video')
 const grid = document.getElementsByName('soundGrid')
 
-console.log(grid)
-
 fetch('../media/CC/directional-sound-indicators.json')
     .then(res => res.json())
     .then(json => addIdToIndicators(json))
@@ -37,23 +35,38 @@ function indicatorIsInDOM(indicator) {
 
 function createIndicator(indicator) {    
     const duration = indicator.endTime - indicator.startTime
-
     const gridContainer = document.getElementById('soundGrid')
     const gridItem = document.createElement('div')
 
-    gridItem.classList.add('base-sound-indicator')
     gridItem.setAttribute('data-id', indicator.id)
-    gridItem.setAttribute('style', `
-        grid-column: ${indicator.location.x};
-        grid-row: ${indicator.location.y}
-    `)
 
-    gridContainer.append(gridItem)
+    if (indicator.location) {
+        gridItem.classList.add('base-sound-indicator')
+        gridItem.setAttribute('style', `
+            grid-column: ${indicator.location.x};
+            grid-row: ${indicator.location.y};
+            color: #${indicator.color};
+            animation: volume-${indicator.volumeLevel} ${duration}s;
+        `)
 
+        gridContainer.append(gridItem)
+
+    } else {
+        gridItem.setAttribute('style', `
+            grid-column: 1 / 7;
+            grid-row: 1 / 7;
+            color: #${indicator.color};
+            opacity: ${indicator.volumeLevel / 10 * 2};
+            animation: cover-grid ${duration}s;
+        `)
+
+        gridContainer.append(gridItem)
+    }
+   
     // remove if player time exceeds endtime
     video.addEventListener('timeupdate', e => {
         if (e.target.currentTime >= indicator.endTime && indicatorIsInDOM(indicator)) {
-            gridContainer.removeChild(gridItem)
+            gridContainer.removeChild(gridItem)    
         }
     })
 }

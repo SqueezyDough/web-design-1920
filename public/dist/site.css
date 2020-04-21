@@ -23,7 +23,6 @@ body {
   box-sizing: border-box; }
 
 .player {
-  position: relative;
   height: 100vh;
   overflow: hidden; }
 
@@ -33,25 +32,86 @@ body {
 
 .player__inner {
   position: absolute;
+  padding: 1rem;
   top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  left: 50%;
+  transform: translateX(-50%);
   max-height: calc(100vh - 2rem);
-  padding: .75rem;
+  max-width: 100vw;
   border: none;
+  outline: 0;
   z-index: 1000; }
 
 .sound-grid {
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
   position: absolute;
   top: 0;
   width: 100%;
-  height: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr; }
+  height: calc(100% + 1rem);
+  display: grid; }
+  .sound-grid.cover {
+    animation-timing-function: ease-in-out;
+    animation-direction: forwards; }
 
 .base-sound-indicator {
   width: 1px;
   height: 1px;
-  box-shadow: 0px 0px 100px 100px red; }
+  box-shadow: unset;
+  animation-timing-function: ease-in-out;
+  animation-direction: forwards; }
+
+.rithm-grid {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  margin-top: 1rem;
+  z-index: 999;
+  background-image: linear-gradient(-2deg, #125B5A 0%, #183E51 100%); }
+
+@keyframes cover-grid {
+  0%, 100% {
+    box-shadow: unset; }
+  50% {
+    color: red;
+    box-shadow: inset 0 0 60px; } }
+
+@keyframes volume-1 {
+  0%, 100% {
+    opacity: 0;
+    box-shadow: 0 0 0 0; }
+  50% {
+    opacity: .2;
+    box-shadow: 0 0 100px 100px; } }
+
+@keyframes volume-2 {
+  0%, 100% {
+    opacity: 0;
+    box-shadow: 0 0 0 0; }
+  50% {
+    opacity: .4;
+    box-shadow: 0 0 200px 200px; } }
+
+@keyframes volume-3 {
+  0%, 100% {
+    opacity: 0;
+    box-shadow: 0 0 0 0; }
+  50% {
+    opacity: .6;
+    box-shadow: 0 0 300px 300px; } }
+
+@keyframes volume-4 {
+  0%, 100% {
+    opacity: 0;
+    box-shadow: 0 0 0 0; }
+  50% {
+    opacity: .8;
+    box-shadow: 0 0 400px 400px; } }
+
+@keyframes volume-5 {
+  0%, 100% {
+    opacity: 0;
+    box-shadow: 0 0 0 0; }
+  50% {
+    opacity: 1;
+    box-shadow: 0 0 500px 500px; } }

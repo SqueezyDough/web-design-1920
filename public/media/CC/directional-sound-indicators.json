@@ -1,23 +1,82 @@
 {
-    "dsi": [{
-        "startTime": 3,
-        "endTime": 6,
-        "location": {
-            "x": 1,
-            "y": 0
-        },
-        "spread": 5,
-        "intensity": 3,
-        "color": "red"
-    }, {
+    "dsi": [
+    {
+        "startTime": 5,
+        "endTime": 5.2,
+        "volumeLevel": 2,
+        "color": "FF0000"
+    }, 
+              
+    {
         "startTime": 6,
-        "endTime": 10,
+        "endTime": 6.3,
         "location": {
-            "x": 5,
+            "x": 4,
             "y": 5
         },
-        "spread": 5,
-        "intensity": 3,
-        "color": "blue"
-    }]
-}
+        "volumeLevel": 3,
+        "color": "FF0000"
+    }, 
+    
+    {
+        "startTime": 6.2,
+        "endTime": 6.5,
+        "location": {
+            "x": 4,
+            "y": 5
+        },
+        "volumeLevel": 3,
+        "color": "FF0000"
+    }, 
+
+    {
+        "startTime": 6.4,
+        "endTime": 7.2,
+        "location": {
+            "x": 4,
+            "y": 5
+        },
+        "volumeLevel": 3,
+        "color": "FF0000"
+    },
+    
+    {
+        "startTime": 7.2,
+        "endTime": 7.6,
+        "volumeLevel": 5,
+        "color": "FF0000"
+    }, 
+    
+    {
+        "startTime": 15.5,
+        "endTime": 15.8,
+        "location": {
+            "x": 4,
+            "y": 5
+        },
+        "volumeLevel": 3,
+        "color": "FF0000"
+    }, 
+    
+    {
+        "startTime": 24.5,
+        "endTime": 25.5,
+        "location": {
+            "x": 4,
+            "y": 1
+        },
+        "volumeLevel": 4,
+        "color": "FF0000"
+    }, 
+    
+    {
+        "startTime": 27,
+        "endTime": 31,
+        "location": {
+            "x": 4,
+            "y": 1
+        },
+        "volumeLevel": 4,
+        "color": "FF0000"
+    }
+]}
