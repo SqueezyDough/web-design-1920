@@ -25,14 +25,6 @@ function addIdToIndicators(indicators) {
     })  
 }
 
-function findIndicator(indicators, time) {
-    return indicators.find(ind => time >= ind.startTime && time <= ind.endTime)
-}
-
-function indicatorIsInDOM(indicator) {
-    return document.querySelector(`[data-id="${indicator.id}"]`)
-}
-
 function createIndicator(indicator) {    
     const duration = indicator.endTime - indicator.startTime
     const gridContainer = document.getElementById('soundGrid')
@@ -69,4 +61,12 @@ function createIndicator(indicator) {
             gridContainer.removeChild(gridItem)    
         }
     })
+}
+
+function findIndicator(indicators, time) {
+    return indicators.find(ind => time >= ind.startTime && time <= ind.endTime)
+}
+
+function indicatorIsInDOM(indicator) {
+    return document.querySelector(`[data-id="${indicator.id}"]`)
 }
