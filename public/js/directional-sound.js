@@ -5,11 +5,11 @@ const toggleDialogue = document.getElementById('toggle-dialogue')
 
 let activePath = '../media/CC/cc-fx.json'
 
+
 init()
 
 async function init() {
     const CC = await fetchData(activePath)
-    console.log(CC)
 
     displaySoundDirection(CC)
 }

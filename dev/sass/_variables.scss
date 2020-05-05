@@ -18,6 +18,12 @@
     src: url("../fonts/Avenir/AvenirLTStd-Heavy.ttf");
 }
 
+  
+@font-face {
+	font-family: "badaboom";
+	src: url("../fonts/badaboom_bb/BADABB__.TTF");
+}
+
 
 $header-font-size: 3.2rem;
 $subheader-font-size: 1.5rem;
@@ -26,5 +32,6 @@ $body-font-size: 1rem;
 $header-font-family: 'Avenir-Heavy', sans-serif;
 $body-font-family: 'Avenir-Roman', sans-serif;
 $contrast-font-family: 'Inconsolata-bold', monospace;
+$animation-ff: 'badaboom', sans-serif;
 
 $grey: #0c0c0c;

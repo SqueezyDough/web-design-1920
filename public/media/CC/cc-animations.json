@@ -1,0 +1,46 @@
+{
+    "animations": [    
+        {
+            "startTime": 3,
+            "endTime": 3.9,
+            "type": "text",
+            "text": "Ka-ching!"
+        },
+        {
+            "startTime": 5,
+            "endTime": 5.9,
+            "type": "text",
+            "text": "Ka-ching!"
+        },
+        {
+            "startTime": 15.2,
+            "endTime": 16.1,
+            "type": "text",
+            "text": "Ka-ching!"
+        },
+
+
+        {
+            "startTime": 22.65,
+            "endTime": 23.6,
+            "type": "text",
+            "text": "Nope!",
+            "size": 3
+        },
+
+
+        {
+            "startTime": 47,
+            "endTime": 51,
+            "type": "text",
+            "text": "Knouterharde grote jongens muziek!"
+        },
+
+        {
+            "startTime": 47,
+            "endTime": 54,
+            "type": "text",
+            "text": "Grommende auto"
+        }
+    ]
+}
