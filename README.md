@@ -9,7 +9,10 @@ You can find all information in my [wiki](https://github.com/SqueezyDough/web-de
 
 ## Learning goals
 ### Learn how to apply design principles
-exclusive design
+#### Exclusive design
+I have used the exlusive design principle from Vasilis to tailor my app for Marie. I'vge described them in my wiki. You can find the linksd below:
+
+- []()
 
 ------
 
