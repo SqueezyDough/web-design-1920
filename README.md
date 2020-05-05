@@ -4,3 +4,5 @@ For this course i will design a prototype that will improve closed captions for 
 
 ## Usability tests & progression
 You can find all information in my [wiki](https://github.com/SqueezyDough/web-design-1920/wiki/Usability-tests)!
+
+Learning goals
