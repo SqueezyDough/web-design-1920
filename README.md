@@ -13,9 +13,9 @@ You can find all information in my [wiki](https://github.com/SqueezyDough/web-de
 I have used the exlusive design principle from Vasilis to tailor my app for Marie. I'vge described them in my wiki. You can find the linksd below:
 
 - [Study the situation](https://github.com/SqueezyDough/web-design-1920/wiki/Study-the-situation)
-- []()
-- []()
-- []()
+- [Ignore conventions](https://github.com/SqueezyDough/web-design-1920/wiki/Ignore-conventions)
+- [Prioritise identity](https://github.com/SqueezyDough/web-design-1920/wiki/Prioritise-identity)
+- [Add nonsense](https://github.com/SqueezyDough/web-design-1920/wiki/Add-nonsense)
 
 ------
 
