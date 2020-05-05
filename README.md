@@ -10,7 +10,21 @@ You can find all information in my [wiki](https://github.com/SqueezyDough/web-de
 ## Learning goals
 ### Learn how to apply design principles
 #### Exclusive design
-I have used the exlusive design principle from Vasilis to tailor my app for Marie. I'vge described them in my wiki. You can find the linksd below:
+I have used the exlusive design principle from Vasilis to tailor my app for Marie. 
+
+##### Study the situations
+> In order to become specialist designers for all kinds of people with all kinds of disabilities we have to study different, individual situations. In the following chapters I dig in deeper into this idea.
+
+##### Ignore conventions
+> The current conventions are designed by, and thus for, designers. Not all of these conventions work for non-designers. If we want to include non-designers, and especially people with disabilities, we should reconsider these conventions, after we studied their situations.
+
+##### Prioritise idenity
+> We have been designing things for the web with an ability bias for ages now. Which means that the identity of digital designers is very well represented— or even over-represented. The identity of people who have been excluded has of course been ignored. Inluding excluded people into our design process, by seeing them as co-designers rather than study objects, can help in coming up with new, and relevant, conventions.
+
+##### Add nonsense
+> Designing websites for people with disabilities is in large part uncharted territory. Nonsense can be a useful tool to investigate the unkown. And it’s fun.
+
+I've described them in my wiki. You can find the links below:
 
 - [Study the situation](https://github.com/SqueezyDough/web-design-1920/wiki/Study-the-situation)
 - [Ignore conventions](https://github.com/SqueezyDough/web-design-1920/wiki/Ignore-conventions)
