@@ -69,9 +69,10 @@
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(6, 1fr);
     position: absolute;
-    top: -1rem;
-    width: 100%;
-    height: calc(100% + 2rem);
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
     display: grid;
 
     &.cover {
