@@ -30,4 +30,12 @@ The light indicators first had a static green color. Marie thought this green me
 ###### Displaying Rithm
 Rithm was first proposed as a Karaoke style CC's where you would see a dot indicating rithm and words could be stretched. This was too big of a job so I decided to handle it differenly. The rithm of music can now be seen through the light indicators. However Marie thought using the same indicator for FX, music and dialogue was too much so I included a switch where you can select either FX and music or dialogue.
 
+##### Closed captions
+I designed the closed captions using test results from other students and I did several proposals how CC would work with the light indicators. I came to the following **Requirement list**:
+- Closed captions should include the names of the person who is speaking
+- Captions as 'scary background music' should be replaced with something like 'incoming danger' or skipped entirely.
+- The color of the name in the closed caption is the same as the light indicator to let Marie know that light / sound comes from that character
+- You can play with the CC's font-size to indicate a high volume for example.
+- You can add playful animations to give the CC's more emotion/meaning.
+
 
