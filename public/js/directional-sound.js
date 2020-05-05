@@ -1,22 +1,40 @@
 const video = document.getElementById('video')
 const grid = document.getElementsByName('soundGrid')
+const toggleFX = document.getElementById('toggle-fx')
+const toggleDialogue = document.getElementById('toggle-dialogue')
 
-fetch('../media/CC/directional-sound-indicators.json')
-    .then(res => res.json())
-    .then(json => addIdToIndicators(json))
-    .then(json => displaySoundDirection(json))
+let activePath = '../media/CC/cc-fx.json'
+
+init()
+
+async function init() {
+    const CC = await fetchData(activePath)
+    console.log(CC)
+
+    displaySoundDirection(CC)
+}
+
+function fetchData(path) {
+    return fetch(path)
+        .then(res => res.json())
+        .then(json => addIdToIndicators(json))
+}
 
 function displaySoundDirection(indicators) {
     console.log(indicators)
 
     video.addEventListener('timeupdate', e => {
-        const currentTime = e.target.currentTime
-        const matchingIndicator = findIndicator(indicators, currentTime)
-
-        if (matchingIndicator && !indicatorIsInDOM(matchingIndicator)) {
-            createIndicator(matchingIndicator)
-        }
+        videoController(e, indicators)
     })
+}
+
+function videoController(e, indicators) {
+    const currentTime = e.target.currentTime
+    const matchingIndicator = findIndicator(indicators, currentTime)
+
+    if (matchingIndicator && !indicatorIsInDOM(matchingIndicator)) {
+        createIndicator(matchingIndicator)
+    }
 }
 
 function addIdToIndicators(indicators) {
@@ -58,7 +76,11 @@ function createIndicator(indicator) {
     // remove if player time exceeds endtime
     video.addEventListener('timeupdate', e => {
         if (e.target.currentTime >= indicator.endTime && indicatorIsInDOM(indicator)) {
-            gridContainer.removeChild(gridItem)    
+            try {
+                gridContainer.removeChild(gridItem)   
+            } catch {
+                console.log('el not found')
+            }            
         }
     })
 }
@@ -70,3 +92,29 @@ function findIndicator(indicators, time) {
 function indicatorIsInDOM(indicator) {
     return document.querySelector(`[data-id="${indicator.id}"]`)
 }
+
+toggleFX.addEventListener('click', () => {
+    const path = '../media/CC/cc-fx.json'
+
+    console.log('fx')
+
+    video.removeEventListener('timeupdate', e => {
+        videoController(e, indicators)
+    })
+
+    fetchData(path)
+        .then(json => displaySoundDirection(json))
+})
+
+toggleDialogue.addEventListener('click', () => {
+    const path = '../media/CC/cc-dialogue.json'
+
+    console.log('dialogue')
+
+    video.removeEventListener('timeupdate', e => {
+        videoController(e, indicators)
+    })
+
+    fetchData(path)
+        .then(json => displaySoundDirection(json))
+})

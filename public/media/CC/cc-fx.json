@@ -1,0 +1,70 @@
+{
+    "dsi": [
+    {
+        "startTime": 3,
+        "endTime": 3.2,
+        "volumeLevel": 3,
+        "color": "FFF"
+    }, 
+
+    {
+        "startTime": 5,
+        "endTime": 5.2,
+        "volumeLevel": 2,
+        "color": "FFF"
+    }, 
+            
+
+
+    {
+        "startTime": 15.2,
+        "endTime": 15.5,
+        "volumeLevel": 2,
+        "color": "FFF"
+    },
+
+
+
+    {
+        "startTime": 21,
+        "endTime": 21.2,
+        "volumeLevel": 1,
+        "color": "FFF"
+    },
+
+    {
+        "startTime": 21.2,
+        "endTime": 21.4,
+        "volumeLevel": 1,
+        "color": "FFF"
+    },
+
+    {
+        "startTime": 21.4,
+        "endTime": 21.6,
+        "volumeLevel": 1,
+        "color": "FFF"
+    },
+
+    {
+        "startTime": 21.6,
+        "endTime": 21.8,
+        "volumeLevel": 1,
+        "color": "FFF"
+    },
+
+    {
+        "startTime": 22.8,
+        "endTime": 22.9,
+        "volumeLevel": 2,
+        "color": "FFF"
+    },
+
+    {
+        "startTime": 22.65,
+        "endTime": 23.6,
+        "volumeLevel": 5,
+        "color": "FFF"
+    }
+
+]}

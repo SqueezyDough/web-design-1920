@@ -1,0 +1,201 @@
+{
+    "dsi": [    
+    {
+        "startTime": 5.8,
+        "endTime": 6.1,
+        "location": {
+            "x": 4,
+            "y": 5
+        },
+        "volumeLevel": 3,
+        "color": "ffcf00"
+    }, 
+    
+    {
+        "startTime": 6,
+        "endTime": 6.3,
+        "location": {
+            "x": 4,
+            "y": 5
+        },
+        "volumeLevel": 3,
+        "color": "ffcf00"
+    }, 
+
+    {
+        "startTime": 6.2,
+        "endTime": 6.8,
+        "location": {
+            "x": 4,
+            "y": 5
+        },
+        "volumeLevel": 3,
+        "color": "ffcf00"
+    },
+
+    {
+        "startTime": 6.8,
+        "endTime": 7.2,
+        "location": {
+            "x": 4,
+            "y": 5
+        },
+        "volumeLevel": 3,
+        "color": "ffcf00"
+    },
+
+    {
+        "startTime": 7.1,
+        "endTime": 7.8,
+        "volumeLevel": 2,
+        "color": "ffcf00"
+    },
+
+    {
+        "startTime": 7.8,
+        "endTime": 8.1,
+        "volumeLevel": 2,
+        "color": "ffcf00"
+    },
+
+    {
+        "startTime": 9.1,
+        "endTime": 9.7,
+        "volumeLevel": 2,
+        "color": "ffcf00"
+    },
+
+    {
+        "startTime": 9.8,
+        "endTime": 10.1,
+        "volumeLevel": 2,
+        "color": "FF0000"
+    },
+
+    {
+        "startTime": 10.1,
+        "endTime": 10.3,
+        "volumeLevel": 2,
+        "color": "FF0000"
+    },
+
+    {
+        "startTime": 10.3,
+        "endTime": 10.7,
+        "volumeLevel": 4,
+        "color": "FF0000"
+    },
+
+
+
+    {
+        "startTime": 16.8,
+        "endTime": 17,
+        "location": {
+            "x": 4,
+            "y": 5
+        },
+        "volumeLevel": 3,
+        "color": "ffcf00"
+    },
+
+    {
+        "startTime": 17,
+        "endTime": 17.3,
+        "location": {
+            "x": 4,
+            "y": 5
+        },
+        "volumeLevel": 3,
+        "color": "ffcf00"
+    },
+
+    {
+        "startTime": 17.3,
+        "endTime": 17.8,
+        "location": {
+            "x": 4,
+            "y": 5
+        },
+        "volumeLevel": 3,
+        "color": "ffcf00"
+    },
+
+    {
+        "startTime": 17.8,
+        "endTime": 18.4,
+        "location": {
+            "x": 4,
+            "y": 5
+        },
+        "volumeLevel": 3,
+        "color": "ffcf00"
+    },
+
+    {
+        "startTime": 18.4,
+        "endTime": 18.9,
+        "location": {
+            "x": 4,
+            "y": 5
+        },
+        "volumeLevel": 3,
+        "color": "ffcf00"
+    },
+
+    {
+        "startTime": 18.4,
+        "endTime": 19,
+        "location": {
+            "x": 4,
+            "y": 5
+        },
+        "volumeLevel": 3,
+        "color": "ffcf00"
+    },
+
+    {
+        "startTime": 19,
+        "endTime": 19.3,
+        "location": {
+            "x": 4,
+            "y": 5
+        },
+        "volumeLevel": 3,
+        "color": "ffcf00"
+    },
+
+
+    {
+        "startTime": 24.4,
+        "endTime": 24.6,
+        "location": {
+            "x": 4,
+            "y": 5
+        },
+        "volumeLevel": 2,
+        "color": "FF00FF"
+    },
+
+    {
+        "startTime": 24.6,
+        "endTime": 24.9,
+        "location": {
+            "x": 4,
+            "y": 5
+        },
+        "volumeLevel": 3,
+        "color": "FF00FF"
+    },
+
+    {
+        "startTime": 24.9,
+        "endTime": 25.6,
+        "location": {
+            "x": 4,
+            "y": 5
+        },
+        "volumeLevel": 4,
+        "color": "FF00FF"
+    }
+]}
