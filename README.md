@@ -35,6 +35,7 @@ I've described them in my wiki. You can find the links below:
 
 ### Undestanding and applying user needs
 I've made a user scenario to better undertand Maries as a quick reference to Marie's persona and her problem with CC.
+- [User scenario](https://github.com/SqueezyDough/web-design-1920/wiki/User-scenario)
 
 ### Learn how to test and use the results to improve your app
 I've created a small prototype that I used for testing each week. I didn't try to create everything at once. There problably won't be enough time to test them properly anyway. 
