@@ -10,7 +10,7 @@ You can find all information in my [wiki](https://github.com/SqueezyDough/web-de
 ## Learning goals
 ### Learn how to apply design principles
 #### Exclusive design
-I have used the exlusive design principle from Vasilis to tailor my app for Marie. 
+I have used the exclusive design principle from Vasilis to tailor my app for Marie. 
 
 ##### Study the situations
 > In order to become specialist designers for all kinds of people with all kinds of disabilities we have to study different, individual situations. In the following chapters I dig in deeper into this idea.
@@ -33,8 +33,8 @@ I've described them in my wiki. You can find the links below:
 
 ------
 
-### Undestanding and applying user needs
-I've made a user scenario to better undertand Maries as a quick reference to Marie's persona and her problem with CC.
+### Understanding and applying user needs
+I've made a user scenario to better understand Maries as a quick reference to Marie's persona and her problem with CC.
 - [User scenario](https://github.com/SqueezyDough/web-design-1920/wiki/User-scenario)
 
 ### Learn how to test and use the results to improve your app
